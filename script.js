@@ -25,7 +25,6 @@ cells.forEach((cell) => cell.addEventListener("click", handleClick));
 
 easymode.addEventListener("click", () => {
     easymode.classList.toggle("active");
-    easymode.textContent = easymode.classList.contains("active") ? "ON" : "OFF";
 
     if (!easymode.classList.contains("active")) {
         document.querySelector(".movestable").innerHTML = "";
